@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Josefin Sans", sans-serif !important;
+}
+.jumbotron {
+  height: 750px;
+}
+.text-wrapper {
+  padding-top: 150px;
+  padding-left: 150px;
+  float: left;
+  width: 50%;
+}
+.text-wrapper h1 {
+  font-size: 72px;
+}
+.text-wrapper h2 {
+  font-size: 32px;
+}
+.image-wrapper {
+  padding-top: 150px;
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+.photo {
+  height: 430px;
+  border-radius: 1rem;
+}
+.about {
+  background-color: #eee;
+  height: 700px;
+}
+.about-text {
+  padding: 100px 0;
+}
+.about-text h1 {
+  font-size: 48px;
+}
+.about-text p {
+  font-size: 21px
+}
+.row {
+  padding-bottom: 20px;
+}
+.gif {
+  padding-left: 80px;
+  padding-top: 120px;
+  border-radius: 2rem;
+}
+.project {
+  height: 700px;
+  text-align: center;
+}
+.project-text h1 {
+  font-size: 48px;
+  padding-top: 50px;
+}
+.project-text h2 {
+  font-size: 72px;
+  padding-top: 150px;
+}
+.title {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.title h1 {
+  font-size: 48px;
+}
+.form-group {
+  padding-bottom: 30px;;
+}
+.contact-me {
+  height: 700px;
+  background-color: #eee;
+}
+
