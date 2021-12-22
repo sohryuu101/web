@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- CSS -->
-    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
     <!-- Js -->
     <script src="style.js"></script>
     <!-- Bootstrap-->
@@ -31,7 +31,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto pe-5">
             <li class="nav-item pe-3">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item pe-3">
               <a class="nav-link" href="#about">About</a>
@@ -48,62 +48,62 @@
     </nav>
     <!-- =====================  End of Navbar =====================  -->
     <!-- =====================  Jumbotron =====================  -->
-    <div class="jumbotron">
-      <div class="text-wrapper">
-        <h1>Hi,</h1>
-        <h1>I'm sohryuu.</h1>
-        <h2>
-          A
-          <span class="typewrite" data-period="2000" data-type='[ "front-end ", "back-end ", "full-stack "]'>
-            <span class="wrap"></span>
-          </span>
-        </h2>
-        <h2>developer wanna be.</h2>
-      </div>
-      <div class="image-wrapper">
-        <img src="photo.jpg" alt="photo" class="photo" />
+    <div class="jumbotron jumbotron-fluid" id="home">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="text-wrapper col-lg-6 ps-5">
+            <h1 class="">Hi,</h1>
+            <h1 class="">I'm sohryuu.</h1>
+            <h2 class="">
+              A
+              <span class="typewrite" data-period="2000" data-type='[ "front-end ", "back-end ", "full-stack "]'>
+                <span class="wrap"></span>
+              </span>
+            </h2>
+            <h2>developer wanna be.</h2>
+          </div>
+          <div class="image col-lg-6 text-center py-5">
+            <img src="photo.jpg" alt="myphoto" class="img-fluid rounded" />
+          </div>
+        </div>
       </div>
     </div>
     <!-- =====================  End of Jumbotron =====================  -->
     <!-- =====================  About =====================  -->
-    <section class="about" id="about">
-      <div class="container">
-        <div class="about-text">
-          <div class="row">
-            <h1>Who am I?</h1>
+    <div class="jumbotron jumbotron-fluid about" id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="gif col-lg-6 text-center py-5">
+            <h2>Who am I?</h2>
+            <img src="gif1.gif" alt="coding" class="img-fluid rounded py-5" />
           </div>
-          <div class="row">
-            <div class="col-md-6">
-              <p>
-                I'm a first year student at Bandung Institute of Technology. Currently, studying in School of Electrical Enginering and Informatics. This is my first project after I’ve learned HTML and CSS for about a week. I hope, I'll be
-                able to contribute in greater projects in the future.
-              </p>
-            </div>
-            <div class="col-md-6">
-              <img src="gif1.gif" class="gif" />
-            </div>
+          <div class="col-lg-6 ps-5 py-5 about-text">
+            <p>
+              I'm a first year student at Bandung Institute of Technology. Currently, studying in School of Electrical Enginering and Informatics. This is my first project after I’ve learned HTML and CSS for about a week. I hope, I'll be
+              able to contribute in greater projects in the future.
+            </p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- ===================== End of About =====================  -->
     <!-- ===================== Projects =====================  -->
-    <section class="project" id="project">
-      <div class="container">
-        <div class="project-text">
-          <h1>Projects</h1>
-          <h2>404</h2>
-          <h3>Page not found</h3>
+    <div class="jumbotron jumbotron-fluid project" id="project">
+      <div class="container-fluid">
+        <h2 class="text-center pt-5">My Projects</h2>
+        <div class="error">
+          <h1 class="text-center">404</h1>
+          <h2 class="text-center">Page not found</h2>
         </div>
       </div>
-    </section>
+    </div>
     <!-- ===================== End of Projects =====================  -->
     <!-- ===================== Contact =====================  -->
     <div class="contact-me" id="contact">
-      <div class="container pt-4">
-        <form class="contact">
+      <div class="container-fluid pt-4">
+        <form class="contact" action="action_page.php" method="post">
           <div class="title">
-            <h1>Contact Me</h1>
+            <h2>Contact Me</h2>
           </div>
           <div class="form-group col-md-4">
             <label for="exampleFormControlInput1">Email address</label>

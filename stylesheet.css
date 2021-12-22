@@ -2,79 +2,65 @@
 html {
   scroll-behavior: smooth;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Josefin Sans", sans-serif !important;
 }
-.jumbotron {
-  height: 750px;
+body h1 {
+  font-size: 72px;
+}
+body h2 {
+  font-size: 48px;
+}
+body h3 {
+  font-size: 32px;;
+}
+body p {
+  font-size: 21px;
+}
+.navbar {
+  transition: top 0.3s;
+  z-index: 1020;
 }
 .text-wrapper {
   padding-top: 150px;
-  padding-left: 150px;
-  float: left;
-  width: 50%;
 }
-.text-wrapper h1 {
-  font-size: 72px;
-}
-.text-wrapper h2 {
-  font-size: 32px;
-}
-.image-wrapper {
-  padding-top: 150px;
-  float: right;
-  width: 50%;
-  text-align: center;
-}
-.photo {
-  height: 430px;
-  border-radius: 1rem;
+.image img {
+  height: 500px;
 }
 .about {
   background-color: #eee;
-  height: 700px;
-}
-.about-text {
-  padding: 100px 0;
-}
-.about-text h1 {
-  font-size: 48px;
+  height: auto;
 }
 .about-text p {
-  font-size: 21px
-}
-.row {
-  padding-bottom: 20px;
-}
-.gif {
-  padding-left: 80px;
-  padding-top: 120px;
-  border-radius: 2rem;
+  padding-top: 25%;
 }
 .project {
-  height: 700px;
-  text-align: center;
+  height: auto;
+  min-height: 600px;
 }
-.project-text h1 {
-  font-size: 48px;
-  padding-top: 50px;
-}
-.project-text h2 {
-  font-size: 72px;
-  padding-top: 150px;
+.error {
+  padding-top: 20%;
 }
 .title {
   padding-top: 100px;
   padding-bottom: 50px;
 }
-.title h1 {
-  font-size: 48px;
-}
 .form-group {
   padding-bottom: 30px;;
 }
 .contact-me {
-  height: 700px;
+  height: auto;
+  min-height: 600px;
   background-color: #eee;
+}
+@media (max-width: 576px) {
+  .about-text p {
+    padding-top: 0;
+  }
 }
 
